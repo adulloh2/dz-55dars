@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>55-dars</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-success">Table</h1>
+            </div>
+
+            <div class="col-3 mb-3">
+                <input type="text" id="username" class="form-control border-4" placeholder="Ismi">
+            </div>
+            <div class="col-3 mb-3">
+                <input type="text" id="userphone" class="form-control border-4" placeholder="Tel raqami">
+            </div>
+            <div class="col-3 mb-3">
+                <input type="text" id="useraddress" class="form-control border-4" placeholder="Address">
+            </div>
+            <div class="col-3 mb-3">
+                <input type="submit" onclick="add()" class="form-control bg-success text-white" value="Qo'shish">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="table text-center table-bordered">
+                    <tr>
+                        <th>№</th>
+                        <th>Ismi</th>
+                        <th>Tel raqami</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                    <tbody>
+                        <!-- <tr>
+                            <td>1</td>
+                            <td>Abdulloh</td>
+                            <td>+998998136782</td>
+                            <td>Yunusobod</td>
+                            <td>Delete</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
