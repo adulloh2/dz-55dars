@@ -37,10 +37,9 @@ function add() {
         userPhone.value == '';
         userAddress.value == '';
         delTr[k].remove();
-        sendtelegram(`deleted\nnmae: ${delTr[k].children[1].innerHTML}\nphone: ${delTr[k].children[2].innerHTML}\naddress: ${delTr[k].children[3].innerHTML}`);
+        sendtelegram(`delete\nname: ${delTr[k].children[1].innerHTML}\nphone: ${delTr[k].children[2].innerHTML}\naddress: ${delTr[k].children[3].innerHTML}`);
       });
       sendtelegram(`New User\nname: ${delTr[k].children[1].innerHTML}\nphone: ${delTr[k].children[2].innerHTML}\naddress: ${delTr[k].children[3].innerHTML}`);
-      // console.log(delTr[k].children[1].innerHTML);
     }
   }
 
